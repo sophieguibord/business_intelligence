@@ -18,11 +18,11 @@ This project analyzes Airbnb listing data to compare the Columbus, Ohio and New 
 
 | # | Question | Data Needed | Source | Data Type |
 |:-:|:---------|:------------|:-------|:----------|
-| 1 | [Question 1] | neighbourhood, minimum_nights, reviews_per_month | listings.csv | Structured |
-| 2 | [Question 2] | neighbourhood, availability_365, price | listings.csv | Structured |
-| 3 | [Question 3] | neighbourhood, minimum_nights, price | listings.csv | Structured |
-| 4 | [Question 4] | room_type, number_of_reviews_ltm | listings.csv | Structured |
-| 5 | [Question 5] | calculated_host_listings_count, reviews_per_month | listings.csv | Structured |
+| 1 | In the Downtown neighborhood, do listings with a "1-night minimum stay" receive a higher number of reviews_per_month than those requiring 2 or 3 nights? | neighbourhood, minimum_nights, reviews_per_month | listings.csv | Structured |
+| 2 | Which neighborhoods in Columbus have the highest availability_365 (days available to book) while maintaining the lowest average nightly price? | neighbourhood, availability_365, price | listings.csv | Structured |
+| 3 | In the Near North/University area, do listings with a high minimum_nights (like 30+ days) have a lower average price than short-term listings? | neighbourhood, minimum_nights, price | listings.csv | Structured |
+| 4 | What is the average number_of_reviews_ltm for Private room listings versus Entire home/apt listings? | room_type, number_of_reviews_ltm | listings.csv | Structured |
+| 5 | Does the calculated_host_listings_count (number of properties a host owns) correlate with higher reviews_per_month? | calculated_host_listings_count, reviews_per_month | listings.csv | Structured |
 
 ## Data Overview
 - **Columbus, Ohio:** 2119 listings (as of Sept 26, 2025)
